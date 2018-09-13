@@ -1,0 +1,9 @@
+/.particlepm
+/dist
+/*.so
+/*/*.so
+/*.o
+/*/*.o
+/build
+/positronbot.ini
+/positronbot.db
