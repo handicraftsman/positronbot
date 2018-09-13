@@ -90,9 +90,9 @@ PPM_PACKAGE(p) {
   });
 
   PPM::TargetPtr plugin = p->library("pb-helloworld");
-  p->cpp("gnu++17");
-  p->cpp_files(src);
-  p->cpp_flags(flags);
+  plugin->cpp("gnu++17");
+  plugin->cpp_files(src);
+  plugin->cpp_flags(flags);
 }
 ```
 

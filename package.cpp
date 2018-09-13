@@ -4,7 +4,7 @@ using namespace PPM::Utils;
 
 PPM_PACKAGE(p) {
   p->name("positronbot");
-  p->version(PPM::Version("v0.1.0"));
+  p->version(PPM::Version("v0.1.1"));
   p->description("An IRC bot framework");
   p->github(PPM::GitHub("handicraftsman", "positronbot"));
   p->license(PPM::License("MIT", "https://github.com/handicraftsman/positronbot/blob/master/LICENSE.txt"));

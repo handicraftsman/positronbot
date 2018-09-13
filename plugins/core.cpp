@@ -171,7 +171,7 @@ extern "C" {
     pb_plugin->register_event_handler<pb::event_ctcp>([] (pb::event::ptr _e) {
       pb::event_ctcp::ptr e = pb_ptrcast<pb::event_ctcp>(_e);
       if (e->type == "VERSION") {
-        e->socket->stream() << pb::ircstream::nctcp(e->nick, "VERSION", "ParticleBot2 - An IRC bot in C++ - https://github.com/handicraftsman/particlebot2/");
+        e->socket->stream() << pb::ircstream::nctcp(e->nick, "VERSION", "PositronBot - An IRC bot in C++ - https://github.com/handicraftsman/positronbot/");
       }
     });
     
